@@ -14,3 +14,9 @@ To optimize data fetching in this application, we've:
 - Parallelized data fetching where appropriate.
 - Implemented streaming to allow UI interaction before all data loads.
 - Moved data fetching to specific components to prepare for Partial Prerendering.
+
+Why use URL search params?
+
+- bookmarkable and shareable URLs - params are part of the URL, so we can bookmark or share the current state of the app
+- server-side rendering - the server can read the URL and render the correct content
+- analytics and tracking - easier to track user interactions and behavior
