@@ -20,3 +20,9 @@ Why use URL search params?
 - bookmarkable and shareable URLs - params are part of the URL, so we can bookmark or share the current state of the app
 - server-side rendering - the server can read the URL and render the correct content
 - analytics and tracking - easier to track user interactions and behavior
+
+Authentication:
+
+- [Credentials (used in this app)](https://authjs.dev/getting-started/authentication/credentials)
+- [OAuth (recommended)](https://authjs.dev/getting-started/authentication/oauth)
+- [Email (recommended)](https://authjs.dev/getting-started/authentication/email)
