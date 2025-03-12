@@ -78,7 +78,7 @@ fun ImageWithText(modifier: Modifier = Modifier) {
             }
         }
     }
-    
+
     Column(modifier = modifier, horizontalAlignment = Alignment.CenterHorizontally) {
         Button(
             onClick = handleClick,
